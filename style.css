@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+}
+
+p{
+    font-family: 'Lato', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.text{
+    max-width: 500px;
+}
+
+.container-fluid{
+    margin: 0 200px 0 200px;
+    height: 560px;
+    background: rgba(215, 212, 255, 1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    justify-items:center;          
+    
+}
+
+.btn-primary{
+    background: rgba(108, 99, 255, 1) !important;
+    padding: 10px 40px 10px 40px !important;
+    box-shadow: 1px 1px 5px rgb(145, 145, 145);
+    
+}
+
+.m{
+    margin: 100px;
+}
+
+.color-1{
+    
+    height: 222px;
+    background: rgba(255, 99, 99, 1);
+
+}
+
+.card{
+    width: 340px!important;
+}
+
+
