@@ -38,6 +38,7 @@ p{
 
 .m{
     margin: 100px;
+    margin-left: 220px !important;
 }
 
 .color-1{
@@ -46,9 +47,28 @@ p{
     background: rgba(255, 99, 99, 1);
 
 }
+.color-2{
+    
+    height: 222px;
+    background: rgba(99, 236, 255, 1);
+
+
+}
+
+.color-3{
+    
+    height: 222px;
+    background:#F363FF;
+
+
+}
+
+
 
 .card{
-    width: 340px!important;
+    width: 340px !important;
+    
+   
 }
 
 
