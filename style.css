@@ -110,3 +110,27 @@ input{
 .msg{
     padding: 10px 140px 10px 140px !important;
 }
+
+/*@media screen and (max-width:1500px) {
+    .container , .m{
+        max-width: 800px !important;     
+    }
+
+    .row{
+        margin-left: -200px !important;
+    }
+   
+}
+@media screen and (max-width:1200px) {
+    .container , .m{
+        max-width: 650px !important;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .row{
+        
+    }
+   
+}*/ 

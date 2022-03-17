@@ -15,3 +15,20 @@ function clicou(){
     // var a = document.querySelector("button");
     
 }
+
+function sendForm(){
+
+    var texto = document.getElementById("mensagem");
+
+    if (texto.value == ""){
+
+        alert("preencha os campos!");
+        
+    }
+    else{
+      alert("enviado com sucesso!");  
+      document.location.reload(true);
+    }
+    
+
+}
