@@ -106,3 +106,7 @@ input{
     height: 165px;
     text-align: start;
 }
+
+.msg{
+    padding: 10px 140px 10px 140px !important;
+}
