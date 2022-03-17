@@ -114,12 +114,34 @@
         </div>
     </main>
 
-    <footer class="container-fluid">
+    <footer class="container-fluid footer">
         <h1>Entre em contato</h1>
+        
 
-        <form action="">
+        <form>
+            <fieldset>
+                <div>
+                    <label for="nome" class="form-label"></label>
+                    <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                </div>
+                <div>
+                    <label for="email" class="form-label"></label>
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                </div>
 
-            
+                <div>
+                    <label for="telefone" class="form-label"></label>
+                    <input type="tel" class="form-control" name="tel" id="telefone" placeholder="Telefone">
+                </div>
+                <div>
+                    <label for="mensagem" class="form-label"></label>
+                    <textarea type="text" class="form-control" name="mensagem" id="mensagem" placeholder="Mensagem..."></textarea>
+                </div>
+
+
+            </fieldset>
+
+
         </form>
 
     </footer>

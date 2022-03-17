@@ -81,10 +81,9 @@ p{
     
 }
 
-
-
 .card{
     width: 340px !important;
+    cursor: pointer;
     box-shadow: 0px 0px 10px rgb(197, 197, 197);
  
 }
@@ -93,3 +92,17 @@ p{
     padding-top: 68px ;
 }
 
+.footer{
+    height: 750px;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+input{
+    width: 470px !important;
+}
+
+#mensagem, textarea{
+    height: 165px;
+    text-align: start;
+}
